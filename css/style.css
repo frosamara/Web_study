@@ -1,0 +1,107 @@
+body {
+    background: rgb(246, 224, 232);
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(255, 221, 244);
+}
+
+#output b{
+    color: rgb(218, 40, 168);
+}
+
+#error{
+    color: red;
+}
+
+.ownerframe {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(224, 121, 191);
+}
+
+.head {
+    max-width: 600px;
+    margin: 0 auto;
+    text-size-adjust: 20;
+    background: rgb(215, 66, 168);
+}
+
+.articles {
+    position: sticky;
+    right: 50%;
+}
+
+.calendar {
+    position: sticky;
+    right: 50%;
+}
+
+.dropper {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(215, 66, 168);
+}
+
+.header {
+    text-align: center;
+    background: rgb(246, 173, 222);
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgb(246, 173, 222);
+}
+
+main {
+    background: rgb(248, 220, 240);
+    padding: 10px;
+}
+
+/* nav {
+    background: rgb(246, 139, 180);
+    padding: 10px;
+} */
+
+div {
+    padding: 10px;
+    margin: 50px;
+    color: white;
+    text-shadow: 1px 1px 2 px black, 0 0 1em red;
+    font: 14pt montserrat;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font: 40pt montserrat;
+    text-align:center;
+}
+
+nav a {
+    background: rgb(244, 117, 227);
+    padding: 2px;
+    color: white;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+nav a:hover {
+    background: rgb(174, 39, 122);
+}
+
